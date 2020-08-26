@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qozeem Odeniran</title>
+
+    <!-- CSS ADDITION... -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- FAVICON ADDITION... -->
+    <link rel="icon" type="image/png" href="images/QO.png">
+
+    <!-- SOCIAL MEDIA LIBRARY -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JAVASCRIPT ADDITION -->
+
+</head>
+
+<body>
+    <script src="js/script.js"></script>
+
+    <section id="header">
+        <h4><strong>QOZEEM ODENIRAN.</strong></h4><br />
+        <h2>BSc. Computer Science,</h2><br />
+        <h3><strong>University of Ilorin.</strong></h3> <br /><br /> <br /><br /><br /><br /><br /><br /><br />
+    </section>
+
+    <section>
+
+        <!-- SOME URL BUTTONS -->
+        <section id="details">
+            <br>
+            <button><a href="mailto:muhdqozeem@gmail.com">CONTACT ME</a></button> <br /> <br />
+            <button><a href="https://1drv.ms/b/s!AsFiOwZYwqjHnDjJdes3zNuteZiT">VIEW MY RESUM&Eacute;</a></button> <br /><br />
+            <button><a href="https://github.com/qozeemodeniran">EXPLORE MY GITHUB</a></button> <br /><br />
+
+
+        </section>
+
+        <div id="slides">
+            <script language="JavaScript">
+                var i = 0;
+                var path = new Array();
+                // LIST OF IMAGES 
+                path[0] = "images/slide1.png";
+                path[1] = "images/slide2.png";
+                path[2] = "images/slide3.png";
+                path[3] = "images/slide3.png";
+                path[4] = "images/slide4.png";
+                path[5] = "images/slide5.png";
+                path[6] = "images/slide6.png";
+                path[7] = "images/slide7.png";
+                path[8] = "images/slide8.png";
+                path[9] = "images/slide9.png";
+
+
+                function swapImage() {
+                    document.slide.src = path[i];
+                    if (i < path.length - 1) i++;
+                    else i = 0;
+                    setTimeout("swapImage()", 5000);
+                }
+                window.onload = swapImage;
+            </script>
+            <img height="100%" name="slide" src="images/slide1.png" style="width: 100%;" />
+        </div>
+
+
+        <div>
+            <p>I am a hard-working and determined Computer Science college graduate seeking an opportunity to succeed in any firm I found myself. In my most recent position with Inlaks Computers, an Information Tech firm, I was part of a team that consistently
+                meet project goals a few days ahead of schedule, and we exceeded our production quota by a considerable percentage. I am confident that my knowledge, ability and experience will allow me to deliver successful results for any company in
+                a range of IT or administrative positions.</p>
+        </div>
+
+
+
+        <section id="social">
+            <a href="https://www.facebook.com/qozeem.odeniran/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/odeniranpikin" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/odeniranpikin/" class="fa fa-instagram"></a>
+        </section><br />
+
+
+
+        <footer>
+            &copy; Qozeem Odeniran 2020. All rights reserved.
+        </footer>
+    </section>
+</body>
+
+</html>
